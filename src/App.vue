@@ -36,7 +36,7 @@
     <transition name="fade">
       <div v-if="this.part === 3" class="question">
         <div class="number">第 3 题</div>
-        <div class="question-title">以下哪款不是今年新推出的短视频产品？</div>
+        <div class="question-title">以下哪款不是 18 年新推出的短视频产品？</div>
         <a @click="right(4, $event)" class="ansrew a">腾讯微视</a>
         <a @click="wrong(4, $event)" class="ansrew b">Facebook Lasso</a>
         <a @click="wrong(4, $event)" class="ansrew c">爱奇艺锦视</a>
@@ -106,7 +106,7 @@
     <transition name="fade">
       <div v-if="this.part === 10" class="question">
         <div class="number">第 10 题</div>
-        <div class="question-title">硅谷著名孵化器 Y Combinator 进入中国，谁成为了 YC 中国 1 号员工？</div>
+        <div class="question-title">硅谷著名孵化器 Y Combinator 进入中国，谁成为了 1 号员工？</div>
         <a @click="wrong(11, $event)" class="ansrew a">李开复</a>
         <a @click="right(11, $event)" class="ansrew b">陆奇</a>
         <a @click="wrong(11, $event)" class="ansrew c">黄峥</a>
@@ -144,7 +144,7 @@
           <template v-else-if="this.score === 40">不干这一行别来凑热闹哇</template>
           <template v-else-if="this.score === 50">你对互联网资讯的敏锐度一般般呐</template>
           <template v-else-if="this.score === 60">勉强及格，再接再厉</template>
-          <template v-else-if="this.score === 70">你对互联网的产品资讯还不错嘛</template>
+          <template v-else-if="this.score === 70">你对互联网的产品资讯了解还不错嘛</template>
           <template v-else-if="this.score === 80">你对互联网的产品资讯很熟悉噢</template>
           <template v-else-if="this.score === 90">你对互联网的产品资讯了如指掌啊</template>
           <template v-else-if="this.score === 100">你对互联网产品资讯的了解程度无人能敌！</template>
@@ -167,7 +167,7 @@
       <div class="mask" @click="hideFollowModal"></div>
       <div class="wrap">
         <a @click="hideFollowModal">×</a>
-        <p>长按识别二维码关注公众号，<span>获取正确答案</span></p>
+        <p>关注公众号后回复「答案」，<br><span>获取正确答案</span></p>
         <img src="./assets/qrcode.png">
         <div class="mp">
           <img src="./assets/big-logo.png">
