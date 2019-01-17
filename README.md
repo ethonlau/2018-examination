@@ -1,21 +1,4 @@
 # 2018-examination
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
+Product Daily 运营活动——2018 互联网产品资讯考试
+页面：![https://ethonlau.github.io/2018-examination/](https://ethonlau.github.io/2018-examination/)
